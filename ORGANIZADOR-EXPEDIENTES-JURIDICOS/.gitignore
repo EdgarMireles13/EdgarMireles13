@@ -1,0 +1,10 @@
+# Configuración local
+.env
+.env.local
+
+# IDs sensibles (si los extraes a archivo)
+*.ids
+config.json
+
+# Logs
+*.log
