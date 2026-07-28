@@ -1,0 +1,14 @@
+# Example rule in DSL (despido_injustificado)
+
+rule: despido_injustificado
+when:
+  event.type == "despido"
+  AND event.facts.justified == false
+then:
+  classify(event, "despido_injustificado")
+  create_obligation("indemnizacion", actor="empleador")
+  reference_norm("norm:mx:lft:art48")
+
+# Metadata
+# priority: 100
+# author: LEGAL-OS Rule Draft
