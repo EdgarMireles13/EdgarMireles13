@@ -1,4 +1,4 @@
-# LEGAL-OS
+    # LEGAL-OS
 
 Sistema operativo jurídico modular enfocado en el ecosistema legal mexicano. Diseñado para estructurar conocimiento normativo, automatizar flujos legales y habilitar el desarrollo de aplicaciones jurídicas sobre una base estandarizada.
 
